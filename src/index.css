@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth
+}
+
+
+@layer components {
+  .mainColor {
+    @apply text-[#2B9DD9];
+  }
+  .mainBg {
+    @apply bg-[#2B9DD9];
+  }
+  .altColor {
+    @apply text-[#041E42];
+  }
+  .altBg {
+    @apply bg-[#041E42];
+  }
+  .navLink {
+    @apply p-2 rounded capitalize font-bold text-[#041E42] hover:bg-[#2B9DD9] hover:text-white duration-300   cursor-pointer;
+  }
+  .active {
+    @apply bg-[#2B9DD9] text-white hover:bg-[#041E42] duration-300;
+  }
+  .btn {
+    @apply py-2 px-5 bg-[#041E42] text-white rounded-md capitalize hover:mainBg duration-300;
+  }
+}
