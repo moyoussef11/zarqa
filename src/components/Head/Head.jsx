@@ -4,7 +4,7 @@ const Head = ({title,info}) => {
       <h3 className="mainColor mx-auto sm:mx-0 font-bold text-2xl capitalize border-b-2 border-[#2B9DD9] w-fit mb-4">
         {title}
       </h3>
-      <p className="font-semibold py-4 text-gray-500">
+      <p className="font-semibold sm:text-2xl py-4 text-gray-500">
        {info}
       </p>
     </div>
