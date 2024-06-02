@@ -17,7 +17,7 @@ const Packages = ({
 }) => {
   const [t] = useTranslation();
   return (
-    <div className="hover:-translate-y-5 duration-200 m-5 py-6 w-1/2 sm:w-1/5 shadow shadow-black  bg-white text-center flex flex-col items-center rounded  mainColor">
+    <div className="hover:-translate-y-5 duration-200 my-2 py-6 w-1/2 sm:w-1/5 shadow shadow-black  bg-white text-center flex flex-col items-center rounded  mainColor">
       <h2 className="font-bold capitalize text-black">{name}</h2>
       <div className="flex mt-3">
         <FaStar className="text-yellow-300" />
@@ -42,7 +42,7 @@ const Packages = ({
         className="mt-4 capitalize font-semibold flex items-center mainBg p-2 rounded hover:scale-125 text-white duration-300"
       >
         {t("order Now")}
-        <FaWhatsapp className="mx-1 " />
+        <FaWhatsapp className="mx-1" />
       </a>
     </div>
   );

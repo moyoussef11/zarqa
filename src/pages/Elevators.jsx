@@ -9,7 +9,7 @@ import Head from "../components/Head/Head";
 const Elevators = () => {
   const [t] = useTranslation();
   return (
-    <div className="p-5 bg-slate-100 relative">
+    <div className="p-1 md:p-5 bg-slate-100 relative">
       <h1 className="text-center mainBg w-fit p-2 text-white rounded mx-auto sm:text-5xl font-bold capitalize mb-5">
         {t("Welcome to UNITED ZARQA")}
       </h1>
