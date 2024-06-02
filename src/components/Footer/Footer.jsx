@@ -15,10 +15,10 @@ const Footer = () => {
     <footer className="mt-auto w-full text-center sm:text-start text-white p-5 bg-[#2B9DD9]">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 px-4 mb-4">
-          <h2 className="font-bold mb-4 text-7xl">Q</h2>
+          <h2 className="font-bold mb-4 text-7xl bg-white mainColor w-fit px-3 flex items-center justify-center ">Q</h2>
           <ul>
             <li className="font-bold">UNITED</li>
-            <li className="font-bold">ZARGA</li>
+            <li className="font-bold">ZARQA</li>
           </ul>
         </div>
         <LinksUl
