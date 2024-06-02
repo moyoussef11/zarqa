@@ -84,6 +84,7 @@ const Header = () => {
       >
         <ul className="flex flex-col items-center space-y-3 py-1">
           <li
+            onClick={() => setToggle(true)}
             className={`navLink ${
               location.pathname === "/" ? "active" : ""
             } text-white`}
@@ -91,6 +92,7 @@ const Header = () => {
             <Link to="/">{t("Elevators")}</Link>
           </li>
           <li
+            onClick={() => setToggle(true)}
             className={`navLink ${
               location.pathname === "/electromechanics" ? "active" : ""
             } text-white`}
@@ -98,6 +100,7 @@ const Header = () => {
             <Link to="/electromechanics">{t("electromechanics")}</Link>
           </li>
           <li
+            onClick={() => setToggle(true)}
             className={`navLink ${
               location.pathname === "/contracting" ? "active" : ""
             } text-white`}
@@ -105,6 +108,7 @@ const Header = () => {
             <Link to="/contracting">{t("almuqawalat")}</Link>
           </li>{" "}
           <li
+            onClick={() => setToggle(true)}
             className={`navLink ${
               location.pathname === "/contact" ? "active" : ""
             } text-white`}

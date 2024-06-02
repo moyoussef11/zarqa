@@ -9,12 +9,11 @@ const Contact = () => {
       </h4>
       <div className="flex items-center justify-center space-x-7 capitalize font-semibold">
         <a href="#oman">oman</a>
-        <a href="#Saudi Arabia">Saudi Arabia</a>
       </div>
       <div className="flex flex-col gap-5 sm:flex-row items-center justify-center space-x-0 sm:space-x-5">
         <div
           id="oman"
-          className="mainBg w-fit text-white px-4 py-2 capitalize mt-10 rounded"
+          className="mainBg w-fit text-white px-4 py-2 capitalize mt-5 rounded"
         >
           <h4 className="mb-3">oman</h4>
           <ul className="text-sm flex flex-col space-y-3">
@@ -38,9 +37,10 @@ const Contact = () => {
             </li>
           </ul>
         </div>
+        <a href="#Saudi Arabia">Saudi Arabia</a>
         <div
           id="Saudi Arabia"
-          className="mainBg w-fit text-white px-4 py-2 capitalize mt-10 rounded"
+          className="mainBg w-fit text-white px-4 py-2 capitalize mt-4 rounded"
         >
           <h4 className="mb-3">Saudi Arabia</h4>
           <ul className="text-sm flex flex-col space-y-3">
