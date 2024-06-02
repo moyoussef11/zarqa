@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import { FaArrowCircleDown, FaStar } from "react-icons/fa";
 import elevtorTech from "../assets/140826053[1].jpg";
 import elevator from "../assets/Elevators .jpg";
-import cabinet from "../assets/2b17e7fe3cc347ffbcb8f4be3d6dc23f4ddd2283_original.jpeg";
 import cabinet1 from '../assets/cap1.jpeg';
 import cabinet2 from '../assets/cap2.jpeg';
 import cabinet3 from '../assets/cap3.jpeg';
