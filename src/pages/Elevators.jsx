@@ -3,6 +3,10 @@ import { FaArrowCircleDown, FaStar } from "react-icons/fa";
 import elevtorTech from "../assets/140826053[1].jpg";
 import elevator from "../assets/Elevators .jpg";
 import cabinet from "../assets/2b17e7fe3cc347ffbcb8f4be3d6dc23f4ddd2283_original.jpeg";
+import cabinet1 from '../assets/cap1.jpeg';
+import cabinet2 from '../assets/cap2.jpeg';
+import cabinet3 from '../assets/cap3.jpeg';
+import cabinet4 from '../assets/cap4.jpeg';
 import modernized from "../assets/1654077684_LcUJvLrpes.jpg";
 import Packages from "../components/package/Packages";
 import Head from "../components/Head/Head";
@@ -40,7 +44,7 @@ const Elevators = () => {
       </div>
       {/* elvetor */}
       <div id="package" className="infoAll py-5">
-        <div className="w-full flex flex-col sm:flex-row justify-center items-center sm:items-stretch" >
+        <div className="w-full flex flex-col sm:flex-row justify-center items-center sm:items-stretch">
           <Packages
             name={t("Home Package")}
             serve1={t("PPM")}
@@ -86,7 +90,12 @@ const Elevators = () => {
         <div className="flex items-center flex-col sm:flex-row space-x-0 sm:space-x-4 my-2">
           <Head title={t("Elevators Installation")} info={t("Installation")} />
           <div className="w-full sm:w-1/2 text-center">
-            <img src={cabinet} alt="4cabinet" />
+            <div className="grid grid-cols-2 gap-2">
+              <img src={cabinet1} className="w-full sm:w-64" alt="4cabinet" />
+              <img src={cabinet3} className="w-full sm:w-64" alt="4cabinet" />
+              <img src={cabinet4} className="w-full sm:w-64" alt="4cabinet" />
+              <img src={cabinet2} className="w-full sm:w-64" alt="4cabinet" />
+            </div>
             <p className="text-sm">{t("cabinet")}</p>
           </div>
         </div>
