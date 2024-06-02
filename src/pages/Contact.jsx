@@ -27,7 +27,7 @@ const Contact = () => {
             <li className="flex items-center space-x-1 hover:altColor duration-150 cursor-pointer">
               <MdMarkEmailUnread />
               <a target="_blank" className="px-1" href="">
-                info.oman@unitedzarqe.com
+                info.oman@unitedzarqa.com
               </a>
             </li>
             <li className="flex items-center space-x-1 hover:altColor duration-150 cursor-pointer">
@@ -53,7 +53,7 @@ const Contact = () => {
             <li className="flex items-center space-x-1 hover:altColor duration-150 cursor-pointer">
               <MdMarkEmailUnread />
               <a target="_blank" className="px-1" href="">
-                info@unitedzarqe.com
+                info@unitedzarqa.com
               </a>
             </li>
             <li className="flex items-center space-x-1 hover:altColor duration-150 cursor-pointer">
