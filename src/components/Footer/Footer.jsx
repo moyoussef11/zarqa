@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="mt-auto w-full text-center sm:text-start text-white p-5 bg-[#01B0F1]">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 px-4 mb-4">
-          <img src={logo} className=" h-28 mx-auto sm:mx-0" alt="logo" />
+          <img src={logo} className="w-20 h-20 mx-auto sm:mx-0" alt="logo" />
           <ul>
             <li className="font-bold">UNITED</li>
             <li className="font-bold">ZARQA</li>
