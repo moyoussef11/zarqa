@@ -18,14 +18,14 @@ const Mechanical = () => {
       <ServicesMep
         title={t("HVAC")}
         info={t("HVACInfo")}
-        textImg={t("ductwork")}
-        img={hvac}
+        textImg={t("")}
+        img={mech}
       />{" "}
       <ServicesMep
         title={t("Fire Fighting Systems")}
         info={t("firefighting")}
-        textImg={t("sprinkler")}
-        img={mech}
+        textImg={t("")}
+        img={hvac}
       />
       <div id="Electrical">
         <h3 className="mainColor mx-auto sm:mx-0 font-bold text-2xl capitalize border-b-2 border-[#2B9DD9] w-fit mb-4">
