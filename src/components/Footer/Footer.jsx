@@ -18,13 +18,13 @@ const Footer = () => {
           <h2 className="font-bold mb-4 text-7xl">Q</h2>
           <ul>
             <li className="font-bold">UNITED</li>
-            <li className="font-bold">ZARGE</li>
+            <li className="font-bold">ZARGA</li>
           </ul>
         </div>
         <LinksUl
           title="Saudi Arabia"
           li1="Riyadh 12613 - Al-Murabe King Faisal St."
-          li2="info@unitedzarqe.com"
+          li2="info@unitedzarqa.com"
           li3="00966570122102"
           icon1={<CiLocationOn size={15} />}
           icon2={<MdMarkEmailUnread size={15} />}
@@ -33,7 +33,7 @@ const Footer = () => {
         <LinksUl
           title="Oman"
           li1="Shinas 324 Northern Al Batinah."
-          li2="info.oman@unitedzarqe.com"
+          li2="info.oman@unitedzarqa.com"
           li3="0096896920499"
           icon1={<CiLocationOn size={15} />}
           icon2={<MdMarkEmailUnread size={15} />}

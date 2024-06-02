@@ -90,10 +90,10 @@ const Elevators = () => {
           <Head title={t("Elevators Installation")} info={t("Installation")} />
           <div className="w-full sm:w-1/2 text-center">
             <div className="grid grid-cols-2 gap-2">
-              <img src={cabinet1} className="w-full sm:w-64" alt="4cabinet" />
-              <img src={cabinet3} className="w-full sm:w-64" alt="4cabinet" />
-              <img src={cabinet4} className="w-full sm:w-64" alt="4cabinet" />
-              <img src={cabinet2} className="w-full sm:w-64" alt="4cabinet" />
+              <img src={cabinet1} className="w-full h-[400px] sm:w-64" alt="4cabinet" />
+              <img src={cabinet3} className="w-full h-[400px] sm:w-64" alt="4cabinet" />
+              <img src={cabinet4} className="w-full h-[400px] sm:w-64" alt="4cabinet" />
+              <img src={cabinet2} className="w-full h-[400px] sm:w-64" alt="4cabinet" />
             </div>
             <p className="text-sm">{t("cabinet")}</p>
           </div>
