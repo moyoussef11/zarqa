@@ -12,7 +12,7 @@ const ContractServices = ({path,title,infoImg,info,ulHead,li1,li2,li3,li4}) => {
           <p>{infoImg}</p>
         </div>
         <div className="w-full sm:w-1/2">
-          <p>{info}</p>
+          <p className="sm:text-3xl py-2">{info}</p>
           <h5 className="mainColor font-bold">{ulHead} </h5>
           <ul className="pl-5">
             <li>{li1}</li>
