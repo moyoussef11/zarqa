@@ -95,7 +95,6 @@ const Elevators = () => {
               <img src={cabinet4} className="w-full h-[400px] sm:w-64" alt="4cabinet" />
               <img src={cabinet2} className="w-full h-[400px] sm:w-64" alt="4cabinet" />
             </div>
-            <p className="text-sm">{t("cabinet")}</p>
           </div>
         </div>
         <div className="flex items-center flex-col sm:flex-row space-x-0 sm:space-x-4 my-2 py-10">
