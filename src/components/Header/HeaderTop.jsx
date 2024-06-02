@@ -12,7 +12,7 @@ const HeaderTop = () => {
         </li>
         <li className="flex items-center space-x-1">
           <MdMarkEmailUnread size={15} />
-          <span>info@unitedzarqe.com</span>
+          <span>info@unitedzarqa.com</span>
         </li>
         <li className="flex items-center space-x-1">
           <FaPhoneAlt size={15} />
