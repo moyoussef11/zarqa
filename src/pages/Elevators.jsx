@@ -48,6 +48,7 @@ const Elevators = () => {
             serve3={t("Oil and grease free")}
             serve4={t("Emergency 24/7 service")}
             serve5={t("Repairing faults during official working hours")}
+            price={t("price1")}
           />
           <Packages
             name={t("Business Package")}
@@ -59,6 +60,7 @@ const Elevators = () => {
             serve5={t("Free door shoes")}
             serve6={t("Repairing faults during official working hours")}
             serve7={t("5% discount on spare parts")}
+            price={t("price2")}
           />
           <Packages
             name={t("Hotels and Restaurants Package Only 3500 riyals")}
@@ -71,6 +73,7 @@ const Elevators = () => {
             serve5={t("Free door shoes")}
             serve6={t("10% discount on spare parts")}
             serve7={t("Immediate fault repair")}
+            price={t("price3")}
           />
         </div>
         <div className=" text-center font-semibold capitalize">

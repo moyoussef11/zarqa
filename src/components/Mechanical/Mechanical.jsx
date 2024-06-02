@@ -34,13 +34,13 @@ const Mechanical = () => {
         <ServicesMep
           title={t("Electrical Design and Installation")}
           info={t("electrical")}
-          textImg={t("Electricians")}
+          textImg={t("")}
           img={ElectricalDesign}
         />
         <ServicesMep
           title={t("Lighting Systems")}
           info={t("Lighting")}
-          textImg={t("LED")}
+          textImg={t("")}
           img={Light}
         />
         <ServicesMep

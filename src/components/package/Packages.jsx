@@ -13,10 +13,11 @@ const Packages = ({
   serve7,
   star,
   star2,
+  price,
 }) => {
   const [t] = useTranslation();
   return (
-    <div className="packages hover:-translate-y-5 duration-200 m-5 pb-6 px-1 sm:h-[440px] shadow shadow-black  bg-white text-center justify-between py-2 flex flex-col items-center rounded  mainColor">
+    <div className="packages hover:-translate-y-5 duration-200 m-5 pb-6 px-1 md:h-[500px] shadow shadow-black  bg-white text-center justify-between py-2 flex flex-col items-center rounded  mainColor">
       <h2 className="font-bold capitalize text-black">{name}</h2>
       <div className="flex mt-3">
         <FaStar className="text-yellow-300" />
@@ -25,6 +26,7 @@ const Packages = ({
         {star}
         {star2}
       </div>
+      <span className="font-bold capitalize text-4xl altColor">{price}</span>
       <ul className="list">
         <li className="border-b p-[10px]">{serve1}</li>
         <li className="border-b p-[10px]">{serve2}</li>{" "}
