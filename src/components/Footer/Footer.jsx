@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import LinksUl from "../links/LinksUl";
 import { CiLocationOn } from "react-icons/ci";
 import { MdMarkEmailUnread } from "react-icons/md";
+import logo from '../../assets/logoffooter.jpeg';
 import {
   FaPhoneAlt,
   FaFacebookSquare,
@@ -12,10 +13,10 @@ import {
 const Footer = () => {
   const [t] = useTranslation();
   return (
-    <footer className="mt-auto w-full text-center sm:text-start text-white p-5 bg-[#2B9DD9]">
+    <footer className="mt-auto w-full text-center sm:text-start text-white p-5 bg-[#01B0F1]">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 px-4 mb-4">
-          <h2 className="font-bold mb-4 text-7xl bg-white mainColor w-fit px-3 py-0 flex items-center justify-center mx-auto sm:mx-0 rounded ">Q</h2>
+          <img src={logo} className=" h-28 mx-auto sm:mx-0" alt="logo" />
           <ul>
             <li className="font-bold">UNITED</li>
             <li className="font-bold">ZARQA</li>
@@ -47,9 +48,9 @@ const Footer = () => {
           icon1={<FaFacebookSquare size={15} />}
           icon2={<FaTwitter size={15} />}
           icon3={<FaInstagram size={15} />}
-          path1="https://www.facebook.com/?locale=ar_AR"
+          path1="https://www.facebook.com/elevatorsq?mibextid=qi2Omg&rdid=bwfQrqrkOknpwq27&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FuiecrerephsfEoff%2F%3Fmibextid%3Dqi2Omg"
           path2="https://x.com/ElevatorsQ?t=0kTvKjVvfaxpvna1xoU5Gg&s=09"
-          path3="https://www.instagram.com/"
+          path3="https://www.instagram.com/elevatorsq/?igsh=MWQxdWMyd21xOHY5bg%3D%3D"
         />
       </div>
       <hr className="w-4/5 mt-2 mx-auto" />
