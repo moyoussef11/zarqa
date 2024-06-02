@@ -17,7 +17,7 @@ const Packages = ({
 }) => {
   const [t] = useTranslation();
   return (
-    <div className="packages hover:-translate-y-5 duration-200 m-5 pb-6 px-1 md:h-[500px] shadow shadow-black  bg-white text-center justify-between py-2 flex flex-col items-center rounded  mainColor">
+    <div className="hover:-translate-y-5 duration-200 m-5 py-6 w-1/2 sm:w-1/5 shadow shadow-black  bg-white text-center flex flex-col items-center rounded  mainColor">
       <h2 className="font-bold capitalize text-black">{name}</h2>
       <div className="flex mt-3">
         <FaStar className="text-yellow-300" />

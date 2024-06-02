@@ -40,7 +40,7 @@ const Elevators = () => {
       </div>
       {/* elvetor */}
       <div id="package" className="infoAll py-5">
-        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center">
+        <div className="w-full flex flex-col sm:flex-row justify-center items-center sm:items-stretch" >
           <Packages
             name={t("Home Package")}
             serve1={t("PPM")}
